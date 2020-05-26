@@ -1,5 +1,5 @@
-const policy = (req,res) => {
-
+const policy = (req, res, next) => {
+    res.render('privacyPolicy');
 
 }
 

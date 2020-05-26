@@ -1,5 +1,5 @@
-const add = (req,res) => {
-
+const add = (req, res, next) => {
+    res.render('productAdd');
 
 }
 

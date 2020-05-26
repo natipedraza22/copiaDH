@@ -1,6 +1,6 @@
-const Terms = (req,res) => {
+const Terms = (req, res, next) => {
 
-
+    res.render('TermsAndConditions');
 }
 
 

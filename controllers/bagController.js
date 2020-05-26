@@ -1,5 +1,5 @@
-const bag = (req,res) => {
-
+const bag = (req, res, next) => {
+    res.render('productBag');
 
 }
 

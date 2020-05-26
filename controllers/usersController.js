@@ -1,5 +1,5 @@
-const users = (req,res) => {
-
+const users = (req, res, next) => {
+    res.render('login');
 
 }
 

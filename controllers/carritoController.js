@@ -1,5 +1,5 @@
-const carrito = (req,res) => {
-
+const carrito = (req, res, next) => {
+    res.render('login');
 
 }
 

@@ -1,5 +1,5 @@
-const detail = (req,res) => {
-
+const detail = (req, res, next) => {
+    res.render('productDetail');
 
 }
 

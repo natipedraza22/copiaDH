@@ -1,5 +1,5 @@
-const index = (req,res) => {
-
+const index = (req, res, next) => {
+    res.render('index');
 
 }
 
